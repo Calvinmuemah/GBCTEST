@@ -19,7 +19,7 @@ import React from 'react'
 // import Signup from './Signup';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Login from './Login';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home'
 import AllTeachings from './Components/AllTeachings';
 import Give from './Components/Give';
