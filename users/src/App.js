@@ -36,7 +36,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/Home' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='/AllTeachings' element={<AllTeachings />}></Route>
         <Route path='/Give' element={<Give />}></Route>
         <Route path='/PrayerMeeting' element={<PrayerMeeting />}></Route>
