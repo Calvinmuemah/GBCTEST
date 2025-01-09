@@ -9,7 +9,7 @@ function Give() {
         <div className="aside">
             <div className="logo">
                 <Link
-                    to="/Home"
+                    to="/"
                 >
                     <span>G</span>BC
                 </Link>
