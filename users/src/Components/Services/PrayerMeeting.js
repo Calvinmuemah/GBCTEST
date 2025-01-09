@@ -13,7 +13,7 @@ function PrayerMeeting() {
           <div className="modal-content">
             {/* Close button */}
             <Link
-              to = "/Home"
+              to = "/"
             >
             <button onClick={closeModal}>X</button>
             </Link>
