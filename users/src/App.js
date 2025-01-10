@@ -19,7 +19,7 @@ import React from 'react'
 // import Signup from './Signup';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Login from './Login';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home'
 import AllTeachings from './Components/AllTeachings';
 import Give from './Components/Give';
@@ -33,10 +33,10 @@ import SundaySchool from './Components/Ministries/SundaySchool';
 
 
 function App() {
-  return (
+  return ( 
     <BrowserRouter>
       <Routes>
-        <Route path='/Home' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='/AllTeachings' element={<AllTeachings />}></Route>
         <Route path='/Give' element={<Give />}></Route>
         <Route path='/PrayerMeeting' element={<PrayerMeeting />}></Route>

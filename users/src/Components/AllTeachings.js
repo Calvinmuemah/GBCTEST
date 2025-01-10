@@ -10,7 +10,7 @@ function AllTeachings() {
       <div className="aside">
         <div className="logo">
           <Link
-            to="/Home"
+            to="/"
           >
           {/* <a href=""> */}
             <span>G</span>BC
@@ -21,15 +21,19 @@ function AllTeachings() {
           <span></span>
         </div>
         <ul className="nav">
+            <Link
+              to = "/"
+            >
             <li><a href="#home" className="active"><i className="fa fa-home"></i>Home</a></li>
-            <li><a href="/index.html"><i className="fa fa-list"></i>Services</a>
+            <li><a href="/"><i className="fa fa-list"></i>Services</a>
             </li>
-            <li><a href="/index.html"><i className="fa fa-comments"></i>Teachings</a></li>
-            <li><a href="/index.html"><i className="fa fa-briefcase"></i>Ministries</a></li>
-            <li><a href="/index.html"><i className="fa fa-user"></i>About</a></li>
-            <li><a href="/index.html"><i className="fa fa-comments"></i>Give</a></li>
-            <li><a href="/index.html"><i className="fa fa-comments"></i>LiveStream</a></li>
-            <li><a href="/All teachings.html"><i className="fa fa-comments"></i>All Teachings</a></li>
+            <li><a href="/"><i className="fa fa-comments"></i>Teachings</a></li>
+            <li><a href="/"><i className="fa fa-briefcase"></i>Ministries</a></li>
+            <li><a href="/"><i className="fa fa-user"></i>About</a></li>
+            <li><a href="/"><i className="fa fa-comments"></i>Give</a></li>
+            <li><a href="/"><i className="fa fa-comments"></i>LiveStream</a></li>
+            <li><a href="/"><i className="fa fa-comments"></i>All Teachings</a></li>
+            </Link>
         </ul>
       </div>
       {/* Aside End */}
@@ -41,19 +45,19 @@ function AllTeachings() {
               <h2>All Teachings</h2>
               <div className="video-all-container">
                 <video controls muted>
-                  <source src="/vids/t1.mp4" type="video/mp4" />
+                  <source src="/vids/1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <video controls muted>
-                  <source src="/vids/t1.mp4" type="video/mp4" />
+                  <source src="/vids/2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <video controls muted>
-                  <source src="/vids/t1.mp4" type="video/mp4" />
+                  <source src="/vids/3.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <video controls muted>
-                  <source src="/vids/t1.mp4" type="video/mp4" />
+                  <source src="/vids/4.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //import './style.css'; // Ensure your CSS file is correctly imported
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
@@ -30,25 +31,21 @@ function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="main-content">
+      <div className="main-content" data-spy="scroll">
         {/* Home Section */}
         <section className="home section" id="home">
           <div className="container">
-            <div className="row">
-              <div className="section-title-home">
-                <h2>Home</h2>
+            <div className="overlay">
+              <div className="img">
+                <img src="/imgs/home.jpg" alt="Prayer Meeting Section"/>
               </div>
-              <div className="video-container">
-                <div className="overlay">
-                  <div className="quote">
-                    "Come to Me, all you who labor and are heavy laden, and I will give you rest."<br />- Jesus
-                  </div>
-                  <a href="#teachings">
-                    <button className="welcome-button">Welcome</button>
-                  </a>
-                </div>
+              <div className="quote">
+                "Come to Me, all you who labor and are heavy laden,<br /> and I will give you rest."<br />- Jesus
               </div>
-            </div>
+              <a href="#teachings">
+                <button className="welcome-button">Welcome</button>
+              </a>
+              </div>
           </div>
         </section>
 
@@ -134,7 +131,7 @@ function Home() {
                 <h2>Teachings</h2>
                 <div className="video-container">
                   <video controls className='teach-1'>
-                    <source src="/vids/t1.mp4" type="video/mp4" />
+                    <source src="/vids/teachings.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -149,8 +146,6 @@ function Home() {
             </div>
           </div>
         </section>
-
-        {/* Additional sections (Ministries, About, Contact) go here */}
         {/* Ministries Section start */}
         <section className="ministries section" id="ministries">
           <div className="container">
@@ -213,19 +208,6 @@ function Home() {
           </div>
         </section>
         {/* Ministries section end */}
-
-        {/* LiveStream Section start */}
-        {/* <section className="livestream section" id="livestream">
-          <div className="container">
-            <div className="row">
-              <div className="section-title padd-15">
-                <h2>LiveStream</h2>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* LiveStream section end */}
-
         {/* About Section start */}
         <section className="about section" id="about">
           <div className="container">
@@ -298,7 +280,7 @@ function Home() {
           <div className="contact-info">
             <h2>Contact</h2>
             <div className="info-item">
-              <span className="icon">📍</span>
+              <span className="icon1">📍</span>
               <p>
                 Glory Bible Church
                 <br />
@@ -308,7 +290,7 @@ function Home() {
               </p>
             </div>
             <div className="info-item">
-              <span className="icon">📞</span>
+              <span className="icon2">📞</span>
               <p>
                 Office Hours: Tue-Fri, 8:00am–12:00pm
                 <br />
@@ -316,7 +298,7 @@ function Home() {
               </p>
             </div>
             <div className="info-item">
-              <span className="icon">✉️</span>
+              <span className="icon3">✉️</span>
               <p>staff@applegatefellowship.org</p>
             </div>
           </div>
@@ -332,7 +314,7 @@ function Home() {
               <div className="form-row">
                 <textarea name="message" placeholder="Message" rows="4" required />
               </div>
-              <button type="submit">Send</button>
+              <button className='send' type="submit">Send</button>
             </form>
           </div>
         </div>
