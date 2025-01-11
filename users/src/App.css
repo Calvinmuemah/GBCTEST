@@ -36,3 +36,131 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+@media (max-width:1199px) {
+  .portfolio .portfolio-item img{
+      width: 300px;
+      height: 180px;
+  }
+  .aside{
+      left: -270px;
+  }
+  .main-content{
+      padding-left: 0;
+  }
+  .about .row .personal-info .info-item p span{
+      display: flex;
+      margin-left: 0;
+  }
+  .home .home-img{
+      flex: 0 0 20%;
+      max-width: 10%;
+      /* text-align: center; */
+      margin-left: 00px;
+  }
+  .home-img::after{
+      content: '';
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-bottom: 10px solid var(--skin-color);
+      border-right: 10px solid var(--skin-color);
+      left: 240px;
+      bottom: -40px;
+  }
+  .home-img::before{
+      content: '';
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-top: 10px solid var(--skin-color);
+      border-left: 10px solid var(--skin-color);
+      left: -20px;
+      top: -40px;
+  }
+}
+@media (max-width:991px){
+  /* .about .row .education{
+      flex: 0 0 50%;
+      max-width: 40%;
+      margin-right: 290px;
+  }
+  .about .row .experience{
+      flex: 0 0 50%;
+      max-width: 40%;
+  } */
+  .about .row .skills{
+      flex: 0 0 45%;
+      max-width: 45%; 
+      /* margin-top: 40px; */
+      margin-right: 0;
+  }
+  .about .row .personal-info{
+      flex: 0 0 55%;
+      max-width: 50%; 
+      /* display: block; */
+
+      /* margin-top: 40px; */
+
+  }
+  .contact .contact-info-item{
+      flex: 0 0 50%;
+      max-width: 50%
+  }
+  .portfolio .portfolio-item{
+      flex: 0 0 50%;
+      max-width: 45%;
+      margin-left: 3px;
+  }
+  .portfolio .portfolio-item img{
+      width: 280px;
+      height: 180px;
+  }
+  .service .service-item{
+      flex: 0 0 50%;
+      max-width: 47%
+  }
+  .service{
+      margin-left: 5px;
+  }
+  /* .about .row .education{
+      flex: 0 0 100%;
+      max-width: 100%
+  } */
+  .home .home-info{
+      flex: 0 0 100%;
+      max-width: 100%
+  }
+  .home .home-img{
+      flex: 0 0 20%;
+      max-width: 10%;
+      text-align: center;
+      margin-left: 350px;
+  }
+  .home-img::after{
+      content: '';
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-bottom: 10px solid var(--skin-color);
+      border-right: 10px solid var(--skin-color);
+      left: 240px;
+      bottom: -40px;
+  }
+  .home-img::before{
+      content: '';
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-top: 10px solid var(--skin-color);
+      border-left: 10px solid var(--skin-color);
+      left: -20px;
+      top: -40px;
+  }
+  .about{
+      margin-bottom: 850px;
+  }
+}

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import './style.css'; // Ensure your CSS file is correctly imported
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
@@ -31,7 +30,7 @@ function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="main-content" data-spy="scroll">
+      <div className="main-content">
         {/* Home Section */}
         <section className="home section" id="home">
           <div className="container">
@@ -243,13 +242,13 @@ function Home() {
               <div className="container-2">
                 <div className="p1">
                   <p>
-                    For God so loved the world that He gave His only begotten Son, that
+                    - For God so loved the world that He gave His only begotten Son, that
                     whoever believes in Him should not perish but have everlasting life.
                   </p>
                 </div>
                 <div className="p2">
                   <p>
-                    For God so loved the world that He gave His only begotten Son, that
+                    - For God so loved the world that He gave His only begotten Son, that
                     whoever believes in Him should not perish but have everlasting life.
                   </p>
                 </div>
