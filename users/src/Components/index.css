@@ -26,9 +26,10 @@ code {
   --text-black-900: #ffffff;
   --text-black-700: #e9e9e9;
 } */
-body{
-  background-color: #302e4d;
-}
+/* body{
+  background-color: black;
+  width: 1000px;
+} */
 ::before,::after{
   box-sizing: border-box;
 }
@@ -46,12 +47,12 @@ ul{
 }
 .main-content{
   margin-left:215px;
-  width: 1250px;
+  /* width: 1250px; */
 
 }
 .container{
   /* width: 2200px; */
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
   /* margin-left: -1000px; */
   /* background-color: #006400; */
@@ -93,10 +94,10 @@ ul{
 .row{
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
+  margin-left: -53px;
   margin-right: -15px;
   position: relative;
-  width: 100%; 
+  width: 1089px; 
 }
 .btn{
   font-size: 16px;
@@ -125,7 +126,6 @@ ul{
   top: 0;
   padding: 30px ;
   height: 100%;
-  /* border-right: 1px solid var(--bg-black-50); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,31 +234,30 @@ ul{
   font-weight: bold;
 }
 .overlay {
-  width: 2250px;
+  width: 1090px;
   height: 500px;
   justify-content: center;
   align-items: center;
-  margin-left: -px;
+  margin-left: -46px;
   border-radius: 0px 0px 10px 10px;
-  margin-top: -10px;
+  margin-top: -70px;
+  background-color: #006400;
 }
 .overlay img{
-  width: 1148px;
+  width: 1089px;
   height: 500px;
-  margin-left: -1220px;
   border-radius: 0px 0px 10px 10px;
-  margin-top: -50px;
 }
 .quote {
   font-size: 45px;
   margin-bottom: 160px;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  margin-top: -400px;
-  margin-left: -1250px;
+  margin-top: -350px;
 }
 .welcome-button {
   padding: 10px 20px;
+  border-radius: 7px;
   font-size: 1.2em;
   color: white;
   background-color: #444;
@@ -267,7 +266,7 @@ ul{
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   margin-top: -0px;
-  margin-left: -1225px;
+  /* margin-left: -1225px; */
 }
 .welcome-button:hover {
   background-color: #666;
@@ -279,10 +278,13 @@ ul{
 .grid{
   flex: 0 0 100%;
   max-width: 100%;
-  margin-left: -35px;
+  margin-top: -100px;
+  /* padding-left: 10px; */
+  /* margin-left: 15px; */
+  /* background-color: #006400; */
 }
 .grid h2{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .cards{
   display: grid; 
@@ -291,6 +293,8 @@ ul{
 }
 
 .card {
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -329,10 +333,10 @@ ul{
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 0px;
-  margin-top: -90PX;
-  margin-top: -150px;
-  /* color: #006400; */
+  margin-left: 490px;
+  /* margin-top: -350PX; */
+  /* margin-top: -150px; */
+  color: #006400;
 }
 
 .video-container {
@@ -341,7 +345,7 @@ ul{
   align-items: center;
   height: 400px;
   width: 100%;
-  margin-left: 120px;
+  margin-left: 400px;
 }
 
 .teach-1{
@@ -359,81 +363,30 @@ ul{
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: -400px;
+  margin-left: 170px;
 }
 
 .all-teachings button:hover {
-  background-color: #444;
+  background-color: green;
 }
-
-#all-teachings-page{
-  /* background: #006400; */
-  margin-left: -232px;
-  width: 1250px;
-  margin-top: 0px;
-  height: 700px;
-  align-items: center;
-  justify-content: center;
-}
-#all-teachings-page h2{
-  font-size: 30px;
-  margin-top: -30px;
-  margin-left: 80px;
-  margin-bottom: 40px;
-}
-.video-all-container { 
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0; 
-  height: 100%;
-  width: 100%;
-  margin-left: 40px;
-  margin-bottom: -100px;
-}
-
-video {
-  height: 250px;
-  max-width: 70%;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-}
-
-.all-teachings {
-  text-align: center;
-  margin: 20px -330px 0 0;
-}
-
-.all-teachings button {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.all-teachings button:hover {
-  background-color: #444;
-}
-/* All Teachings End */
-
-
 /* Teachings End */
 
 /* Ministries start */
 .grid{
   flex: 0 0 100%;
   max-width: 100%;
+  margin-top: 100px;
+  /* margin-bottom: -1400px; */
 }
 .grid h2{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
 }
 .cards{
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+  /* margin-bottom: -900px; */
 }
 
 .card {
@@ -441,6 +394,7 @@ video {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
+  /* margin-bottom: -500px; */
 }
 .card:hover{
   background-color: #c5c5c5;
@@ -471,7 +425,7 @@ video {
 
 /* give start */
 .main-container3{
-  width: 1348px;
+  /* width: 1348px; */
   background: #fff;
   align-items: center;
   justify-content: center;
@@ -490,7 +444,7 @@ video {
   margin: 0;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 420px;
+  margin-left: 230px;
   color: #006400;
   margin-bottom: 10px;
 }
@@ -500,14 +454,13 @@ video {
   font-weight: 700;
   font-size: 16px;
   color: #555;
-  margin-left: 480px;
+  margin-left: 280px;
 }
 
 .container2{
   padding: 20px;
   margin-top: -100px;
   margin-left: 200px;
-  /* background: #000; */
 }
 
 .method1 {
@@ -540,52 +493,54 @@ video {
 .icon.phone {
   background-image: url('./icons/phone.png'); /*Add appropriate icon*/
   margin-top: 20px;
+  margin-left: 340px;
 }
 
 .icon.mail {
   background-image: url('./icons/mail.png'); /* Add appropriate icon */
-  /* margin-top: 60px; */
+  margin-left: 340px;
 }
 
 .icon.box {
   background-image: url('./icons/box.png'); /* Add appropriate icon */
+  margin-left: 340px;
 } 
 
 .method1 h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  margin-left: 505px;
+  margin-left: 315px;
 }
 
 .method1 p {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
-  margin-left: 290px;
+  margin-left: 90px;
 }
 .method2 h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  margin-left: 535px;
+  margin-left: 350px;
 }
 
 .method2 p {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
-  margin-left: 465px;
+  margin-left: 290px;
 }
 .method3 h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  margin-left: 510px;
+  margin-left: 325px;
 }
 
 .method3 p {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
-  margin-left: 350px;
+  margin-left: 190px;
 }
 
 a {
@@ -606,10 +561,21 @@ a:hover {
 /* About start */
 .content {
   flex: 1 1 40%;
-  max-width: 600px;
-  margin-left: -30px;
-}
+  max-width: 500px;
+  margin-left: 20px;
+  margin-top: -20px;
+  /* background-color: blue; */
 
+}
+.content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: -30px;
+  margin-left: 500px;
+  color: black;
+}
 .content h1 {
   font-size: 2em;
   font-weight: bold;
@@ -631,13 +597,15 @@ a:hover {
 
 .image {
   flex: 1 1 40%;
-  max-width: 600px;
+  /* margin-top: -10300px; */
   margin: 20px;
   margin-right: 50px;
+  margin-top: 50px;
+  /* background-color: #000; */
 }
 
 .image img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -647,12 +615,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin-left: -60px;
+  margin-left: -0px;
 }
 .p1{
   flex: 1 1 50%;
   max-width: 40%px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 .p2{
   flex: 1 1 50%;
@@ -671,11 +639,12 @@ a:hover {
   text-align: center;
   padding: 40px 20px;
   border-radius: 10px;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: auto;
-  margin-left: 380px;
-  margin-top: -80px;
-  margin-bottom: 50px;
+  /* margin-left: 380px; */
+  margin-top: -40px;
+  width: 900px;
+  margin-left: 120px;
 }
 .staff-section:hover{
   background-color: #fff;
@@ -726,7 +695,7 @@ a:hover {
   flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
-  margin-left: -200px;
+  margin-left: -170px;
 }
 
 .contact-info {
@@ -739,6 +708,8 @@ a:hover {
 .contact-info h2 {
   font-size: 30px;
   margin-bottom: 50px;
+  margin-left: 390px;
+  color: #006400;
 }
 
 .info-item {
@@ -764,10 +735,9 @@ a:hover {
   flex: 1;
   min-width: 300px;
   max-width: 400px;
-  margin-left: 180px;
+  margin-left: 120px;
   margin-top: 90px;
   margin-bottom: 20px;
-  /* background-color: #000; */
 }
 
 form {
@@ -799,6 +769,9 @@ form textarea {
 .send{
   background-color: #2f5233;
   width: 400px;
+  height: 35px;
+  margin-top: -10px;
+  border-radius: 10px;
   margin-left: 0px;
 }
 
@@ -813,15 +786,19 @@ form textarea {
 
 /* responsiveness */
 
-@media (max-width:1199px) {
-  
-}
-
 @media (max-width:991px){
   .main-container{
     width: 80px;
     background-color: #006400;
   }
+  /* .row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -3px; *
+    margin-right: -15px;
+    position: relative;
+    width: 300px; 
+  } */
   .aside{
     left: -570px;
     display: none;
@@ -832,28 +809,27 @@ form textarea {
     margin-left: -145px;
   }
 .overlay {
-  width: 370px;
+  width: 377px;
   height: 400px;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
+  margin-left: -92px;
   border-radius: 0px 0px 10px 10px;
-  margin-top: -10px;
+  margin-top: -60px;
+  background-color: #000;
 }
 .overlay img{
-  width: 370px;
+  width: 377px;
   height: 400px;
-  margin-left: -420px;
   border-radius: 0px 0px 10px 10px;
-  margin-top: -50px;
 }
 .quote {
   font-size: 15px;
-  margin-bottom: 225px;
+  margin-bottom: 175px;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  margin-top: -300px;
-  margin-left: -420px;
+  margin-top: -250px;
+  /* margin-left: -420px; */
 }
 .welcome-button {
   padding: 10px 20px;
@@ -865,22 +841,26 @@ form textarea {
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   margin-top: -0px;
-  margin-left: -425px;
+  /* margin-left: -425px; */
 }
 .welcome-button:hover {
   background-color: #666;
 }  
 /* Home End */
 
-/* Servises start */
+/* Services start */
 
 .grid{
-  flex: 0 0 80%;
-  max-width: 100%;
+  /* flex: 0 0 50%; */
+  /* max-width: 100%; */
+  width: 370px;
+  /* display: flex; */
   margin-top: -220px;
   margin-left: -35px;
+  /* background-color: #000; */
 }
 .grid h2{
+  margin-left: -500px;
   margin-bottom: 20px;
   color: #006400;
 }
@@ -888,6 +868,7 @@ form textarea {
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px;
+  width: 370px;
 }
 
 .card {
@@ -896,9 +877,6 @@ form textarea {
   overflow: hidden;
   text-align: center;
 }
-/* .card:hover{
-  background-color: gold;
-} */
 
 
 .card img {
@@ -929,7 +907,7 @@ form textarea {
   margin-bottom: 80px;
   font-size: 30px;
   font-weight: bold;
-  margin-left: -200px;
+  margin-left: 60px;
   margin-top: -10px;
   color: #006400;
 }
@@ -939,17 +917,19 @@ form textarea {
   justify-content: center;
   align-items: center;
   height: 300px;
-  width: 300px;
-  margin-left: 110px;
+  width: 100px;
+  margin-left: 150px;
   border-radius: 5px;
+  background-color: #000;
 }
 
 .teach-1{
   height: 400px;
-  max-width: 100%;
+  max-width: 300px;
   border: 2px solid #ccc;
   border-radius: 5px;
-  margin-left: -300px;
+  margin-left: -100px;
+  /* background-color: #006400; */
 }
 .all-teachings button {
   background-color: #000;
@@ -959,72 +939,21 @@ form textarea {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: -510px;
+  margin-left: -280px;
   margin-top: 50px;
   margin-bottom: 100px;
 }
-
-#all-teachings-page{
-  margin-left: -232px;
-  width: 1250px;
-  margin-top: 0px;
-  height: 700px;
-  align-items: center;
-  justify-content: center;
-}
-#all-teachings-page h2{
-  font-size: 30px;
-  margin-top: -30px;
-  margin-left: 80px;
-  margin-bottom: 40px;
-}
-.video-all-container { 
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0; 
-  height: 100%;
-  width: 100%;
-  margin-left: 40px;
-  margin-bottom: -100px;
-}
-
-video {
-  height: 250px;
-  max-width: 70%;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-}
-
-.all-teachings {
-  text-align: center;
-  margin: 20px -330px 0 0;
-}
-
-.all-teachings button {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.all-teachings button:hover {
-  background-color: #444;
-}
-/* All Teachings End */
-
-
 /* Teachings End */
 
 /* Ministries start */
 .grid{
-  flex: 0 0 80%;
+  flex: 0 0 20%;
   max-width: 100%;
+  margin-left: -38px;
+  /* background-color: #006400; */
 }
 .grid h2{
+  margin-left: -500px;
   margin-bottom: 20px;
   color: #006400;
 }
@@ -1064,18 +993,30 @@ video {
 /* ministries End */
 
 /* About start */
-.content {
-  flex: 1 1 80%;
-  margin-left: -50px;
-}
 
+.content {
+  /* display: none; */
+  /* flex: 1 1 30%; */
+  width: 100px;
+  margin-left: -30px;
+  /* background-color: #000; */
+}
+.content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: -50px;
+  margin-left: -200px;
+  color: black;
+}
 .content h1 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
   margin-top: -50px;
-  margin-left: -100px;
+  margin-left: -200px;
   color: #006400;
 }
 
@@ -1090,28 +1031,33 @@ video {
   font-style: italic;
 }
 
-.image {
-  flex: 1 1 80%;
-  width: 100px;
-  margin-left: -80px;
+/* .image { */
+  /* display: none; */
+  /* flex: 1 1 30%; */
+  /* width: 100px;
+  margin-left: -4000px;
   border-radius: 10px;
-  margin-top: 40px;
-}
+  margin-top: 800px;
+  background-color: #006400;
+} */
 
 .image img {
+  /* display: none; */
   width: 320px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  margin-left: -20px;
-}
+  margin-top: 600px;
+  margin-left: -1235px;
+} 
 .container-2{
   width: 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left: -65px;
-  margin-top: -50px;
+  margin-left: -25px;
+  /* margin-top: 400px; */
+  /* background-color: #006400; */
 }
 .p1{
   flex: 1 1 100%;
@@ -1128,7 +1074,7 @@ video {
 /* <!-- other pages Start  --> */
 .other-pages{
   background-color: #fff;
-  margin-top: -30px;
+  margin-top: -90px;
 }
 /* <!-- staff pages Start  --> */
 
@@ -1182,6 +1128,7 @@ video {
   padding: 20px;
   gap: 20px;
   margin-left: -200px;
+  /* background-color: #000; */
 }
 
 .contact-info {
@@ -1253,123 +1200,13 @@ form textarea {
 .send{
   background-color: #2f5233;
   width: 330px;
+  height: 35px;
+  border-radius: 10px;
   margin-left: 0px;
+  margin-top: -10px;
+  margin-bottom:20px ;
 }
 /* <!-- contact pages End --> */
    
 /* <!-- other pages End --> */
-
-
-
-  
-
-/* @media (max-width:667px){
-  
-  .about .row .experience,.about .row .education{
-      display: none;
-      flex: 0 0 95%;
-      max-width: 95%;
-      margin-bottom: 300px;
-  }
-  .about .row .experience{
-      display: none;
-      flex: 0 0 50%;
-      max-width: 100%;
-  }
-  .about .row .education{
-      display: none;
-      flex: 0 0 50%;
-      max-width: 100%
-  }
-  .about .row .skills{
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-left: 25px;
-  }
-  .about .row .personal-info{
-      flex: 0 0 93%;
-      max-width: 100%;
-      margin-right: 0px;
-  }
-  .home .home-img{
-      flex: 0 0 10%;
-      max-width: 10%;
-      text-align: center;
-      position: relative;
-  }
-  .home-img::after{
-      content: '';
-      position: absolute;
-      height: 80px;
-      width: 80px;
-      border-bottom: 10px solid var(--skin-color);
-      border-right: 10px solid var(--skin-color);
-      margin-left: -372px;
-      bottom: -25px;
-  }
-  .home-img::before{
-      content: '';
-      position: absolute;
-      height: 80px;
-      width: 80px;
-      border-top: 10px solid var(--skin-color);
-      border-left: 10px solid var(--skin-color);
-      margin-left: -295PX;
-      margin-top: 87PX;
-  }
-  .home .home-img img{
-      margin: auto;
-      border-radius: 5px;
-      height: 300px;
-      margin-left: -400PX;
-      margin-top: 80PX;
-  }
-  .home .home-info{
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-left: 20px;
-  }
-  .about{
-      background-color: var(--bg-black-50);
-      margin-bottom: 30px;
-      margin-left: 10px;
-  }
-  .service .container{
-      padding-bottom: 40px;
-      margin-top: 2100px;
-      margin-left: 20px;
-      margin-bottom: -100px;
-  }
-  .portfolio .container{
-      padding-bottom: 40px;
-      margin-left: 10px;
-      margin-top: -50px;
-      margin-bottom: -110px;
-  }
-  .portfolio .portfolio-heading{
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-bottom: 20px;
-      margin-left: 10px;
-  }
-  .portfolio .portfolio-item{
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-bottom: 30px;
-  }
-  .contact .contact-form{
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-left: 37px;
-  }
-  .contact .contact-form .btn{
-      height: 50px;
-      padding: 0 50px;
-      margin-left: 35px;
-  }
-  .about .row .personal-info .buttons .btn{
-      margin-left: 25px;
-      margin-top: 10px;
-  }
-} */
-} 
+}

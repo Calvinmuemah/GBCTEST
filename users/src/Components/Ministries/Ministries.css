@@ -2,19 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(29, 21, 21);
+    /* background-color: #b8e0d2; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
 }
-/* Bible study start */
 .container {
     text-align: center;
     margin-left: 90px;
 }
   
-button {
+.modal-content button {
     background-color: #fff;
     color: black;
     border: none;
@@ -22,7 +20,7 @@ button {
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 385px;
+    margin-left: 460px;
     margin-top: -15px;
 }
   
@@ -80,5 +78,35 @@ button:hover {
     font-weight: bold;
     cursor: pointer;
 }
-  
-/* Bible study end */
+
+
+/* responsive */
+@media (max-width:991px){
+    .container-M2 {
+        text-align: center;
+        margin-left: 0px;
+        width: 300px;
+    }
+    .modal-content button {
+        background-color: #fff;
+        color: black;
+        border: none;
+        padding: 4px 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 245px;
+        margin-top: -15px;
+    }
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 500px;
+        width: 90%;
+        position: relative;
+        margin-top: -70px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+}

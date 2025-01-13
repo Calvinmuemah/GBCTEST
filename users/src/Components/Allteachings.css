@@ -1,0 +1,107 @@
+#all-teachings-page{
+    /* background: #006400; */
+    margin-left: -232px;
+    width: 1250px;
+    margin-top: 0px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+  #all-teachings-page h2{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+  }
+  .video-all-container { 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+    margin-bottom: -100px;
+  }
+  
+  video {
+    height: 250px;
+    max-width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .all-teachings {
+    text-align: center;
+    margin: 20px -330px 0 0;
+  }
+  
+  .all-teachings button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .all-teachings button:hover {
+    background-color: #444;
+  }
+
+  @media (max-width:991px){
+    #all-teachings-page{
+        margin-left: -148px;
+        width: 380px;
+        margin-top: 0px;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+        /* background-color: red;/ */
+        /* margin-right: -2000px; */
+      }
+      #all-teachings-page h2{
+        font-size: 30px;
+        margin-top: -30px;
+        margin-left: -140px;
+        margin-bottom: 40px;
+      }
+      .video-all-container { 
+        justify-content: center;
+        /* align-items: center; */
+        /* height: 100; */
+        width: 380px;
+        margin-left: -75px;
+        margin-bottom: -100px;
+        /* background-color: gold; */
+      }
+      
+      video {
+        height: 250px;
+        width: 300px;
+        /* max-width: 100%; */
+        border: 2px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .all-teachings {
+        text-align: center;
+        margin: 20px -330px 0 0;
+      }
+      
+      .all-teachings button {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      .all-teachings button:hover {
+        background-color: #444;
+      }  
+  }
+  

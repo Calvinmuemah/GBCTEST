@@ -212,9 +212,9 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="section-title">
-                <h2>About</h2>
               </div>
               <div className="content">
+                <h2>About</h2>
                 <h1>The Good News</h1>
                 <p>
                   The gospel is the “Good News” of Jesus Christ. Romans 6:23 explains the
